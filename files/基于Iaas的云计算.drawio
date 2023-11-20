@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2023-08-13T07:43:56.895Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="gAX5oi0yLP4gdDhuAOMh" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="4I5WQBqIB5ViFnE6V2mY">
+    <mxGraphModel dx="1536" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HWRhpvXBCL9E-T80Iwpt-2" target="HWRhpvXBCL9E-T80Iwpt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-2" value="在Iaas上申请服务器资源，得到一个只有操作系统的裸的服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="253" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HWRhpvXBCL9E-T80Iwpt-4" target="HWRhpvXBCL9E-T80Iwpt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-4" value="统一操作系统&lt;br style=&quot;font-size: 14px;&quot;&gt;各种配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HWRhpvXBCL9E-T80Iwpt-5" target="HWRhpvXBCL9E-T80Iwpt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-5" value="安装JVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HWRhpvXBCL9E-T80Iwpt-8" target="HWRhpvXBCL9E-T80Iwpt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-8" value="部署jar包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="750" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HWRhpvXBCL9E-T80Iwpt-10" target="HWRhpvXBCL9E-T80Iwpt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-10" value="配置JVM参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="900" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HWRhpvXBCL9E-T80Iwpt-12" target="HWRhpvXBCL9E-T80Iwpt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-12" value="服务器扩容" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HWRhpvXBCL9E-T80Iwpt-18" target="HWRhpvXBCL9E-T80Iwpt-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-18" value="启动JVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="900" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HWRhpvXBCL9E-T80Iwpt-20" target="HWRhpvXBCL9E-T80Iwpt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-20" value="将当前机器加入到负载均衡列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="740" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWRhpvXBCL9E-T80Iwpt-24" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="355" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
